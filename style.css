@@ -1,4 +1,5 @@
 body{
+    margin:0px;
     font-family: 'Raleway', sans-serif;
 }
 
@@ -17,4 +18,23 @@ h1{
 
 .half-width img{
     width:100%;
+}
+
+.top-banner{
+    
+    background-image: url("picture/top-banner.png");
+    background-repeat: no-repeat;
+}
+
+section{
+    height:500px;
+}
+
+.link-button{
+    text-decoration: none;
+    background-image:linear-gradient(45deg, lightsalmon, tomato);
+    padding: 10px 15px;
+    border-radius: 5px;
+    color: white;
+    font-weight: bold;
 }
